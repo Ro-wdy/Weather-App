@@ -128,7 +128,7 @@ const HomePage: React.FC<{ onNavigate: (page: string) => void }> = ({ onNavigate
           </p>
           <Button
             onClick={() => onNavigate('subscribe')}
-            className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-white hover:bg-purple-50 sm:w-auto"
+            className="mt-8 w-full sm:w-auto px-8 py-4 text-lg font-medium rounded-md text-purple-700 bg-white hover:bg-purple-50 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200"
           >
             Subscribe Now
           </Button>
